@@ -11,6 +11,6 @@ public class Rectangle {
         return 2 * (width + height);
     }
     boolean isSquare(){
-        return this.width == this.height;
+        return width == height;
     }
 }
