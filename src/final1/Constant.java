@@ -9,5 +9,5 @@ public class Constant {
     public static final int MINUTES_IN_HOUR = 60;
     public static final int SECONDS_IN_MINUTE = 60;
     //애플리케이션 설정 상수
-    public static final int MAX_USERS = 100;
+    public static final int MAX_USERS = 1000;
 }
