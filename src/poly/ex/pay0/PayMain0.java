@@ -5,14 +5,14 @@ public class PayMain0 {
         PayService payService = new PayService();
 
         //kakao 결제
-        String payOprion1 = "kakao";
+        String payOption1 = "kakao";
         int amount1 = 5000;
-        payService.processPay(payOprion1, amount1);
+        payService.processPay(payOption1, amount1);
 
         //naver 결제
-        String payOprion2 = "naver";
+        String payOption2 = "naver";
         int amount2 = 10000;
-        payService.processPay(payOprion2, amount2);
+        payService.processPay(payOption2, amount2);
 
         //잘못된 결제 수단 선택
         String payOption3 = "bad";
